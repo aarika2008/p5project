@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intro p5.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+    animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+ width: 150px;
+ height: 150px;
+  }
+
+  @keyframes example {
+  0%   {background-color:pink; left:0px; top:0px;}
+  0%{transform: rotateX(150deg);}
+}
+  canvas {
+  	border:1px solid black;
+    margin-top: 160px;
+  }
+
+  body{
+    background: pink;
+  }
+  .btn-success{
+     margin-top: 1px;
+  }
+  </style>
+</head>
+
+<body>
+<center>
+<div class="container">
+	<h3 class="btn btn-primary">Introduction<br>to p5.js</h3>
+  <hr>
+  
+  <button onclick="take_snapshot()" class="btn btn-success">Take Snapshot</button>
+</div>
+</center>
+
+</body>
+<script src="main.js"></script>
+
+</html>
+
